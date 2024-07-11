@@ -14,17 +14,15 @@
 }
 .banner{
     background-image: url(../assets/Hero-bg.png);
-    height: 600px;
+    height: 480px;
     width: 1200px;
     background-size: cover;
     background-position: center;
 }
 .contaner{
-    
     margin: 0 auto;
     width: 900px;
     height: 500px;
-    background-color: aqua;
 }
 .hero{
     margin-top: 20px;
@@ -53,14 +51,87 @@ img{
     font-size: 50px;
     padding: 0 20px;
     text-align: center;
+    color: rgb(0, 0, .5);
 }
 .hero p{
-    font-family: "Roboto", sans-serif;
-    font-weight: 4oo;
     font-size: 15px;
-    color: rgb(52, 52, 60);
+    color: rgb(96, 96, 100);
+    text-align: center;
+    margin: 0 50px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
 }
-
+.about{
+    margin: 40px 10px;
+}
+.contaners{
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+.contaners h1{
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 0 20px;
+    text-align: center;
+    color: rgb(0, 0, .5);
+}
+.contaners .ptag{
+    font-size: 15px;
+    color: rgb(96, 96, 100);
+    text-align: center;
+    margin: 0 50px;
+    padding: 20px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+.about-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.about-me1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+    margin-right: 200px;
+}
+.about-me3{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+    margin: 0 80px;
+}
+   
+.about-me1 p{
+    font-size: 15px;
+    color: rgb(96, 96, 100);
+    text-align: start;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+.about-me3 p{
+    font-size: 15px;
+    color: rgb(96, 96, 100);
+    text-align: start;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+.btn{
+    padding: 12px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 1, 0.164);
+    color: rgb(0, 0, .5);
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
 #foot{
     background-color: brown;
 }
