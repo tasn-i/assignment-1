@@ -3,14 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Assignment-1</title>
+    <title>assignment-1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        .roboto-light {
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+        .roboto-regular {
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .banner{
+            background-image: url(../assets/Hero-bg.png);
+            height: 600px;
+            width: 1200px;
+            background-size: cover;
+            background-position: center;
+        }
+        .contaner{
+            
+            margin: 0 auto;
+            width: 900px;
+            height: 500px
+        }
+        .hero{
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 20px;   
+        }
+        img{
+            width: 150px;
+            height: 180px;
+        }
+        .btn-1{
+            padding: 12px;
+            border-radius: 5px;
+            background-color: rgb(0, 0, .5);
+            color: white;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+        }
+        .hero h1{
+            font-family: "Roboto", sans-serif;
+            font-weight: 600;
+            font-size: 50px;
+            padding: 0 20px;
+            text-align: center;
+        }
+        .hero p{
+            font-family: "Roboto", sans-serif;
+            font-weight: 4oo;
+            font-size: 15px;
+            color: rgb(52, 52, 60);
+        }
+        
+        #foot{
+            background-color: brown;
+        }
+    </style>
 </head>
-<body>
+<body class="roboto-regular">
     <header>
-        <nav>
-            <ul></ul>
-        </nav>
     </header>
-    
+
+    <main>
+        <section class="banner">
+            <div class="contaner">
+                <div class="hero">
+                    <img src="../assets/Group.png" alt="">
+                    <h1>"Hi, I'm Tasnim Akter Bithi. I'm a Web developer."</h1>
+                    <p>I am Tasnim Akter Bithi. WordPress & eCommerce Expert.I'm Expert. I am an expert in 2 years.I'm creates and maintains websites ensuring that the design and flow are both beautiful and functional.</p>
+                    <a href="#foot"><button class="btn-1">Contact with me</button></a>
+                </div>
+            </div> 
+        </section>  
+    </main>
+    <footer>
+        <div id="foot">
+            <h6>contact with me</h6>
+        </div>
+    </footer>
 </body>
 </html>
