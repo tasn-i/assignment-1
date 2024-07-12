@@ -16,7 +16,6 @@
     h3{
         color: rgb(53, 52, 52);
     }
-    
 }
 .banner{
     background-image: url(../assets/Hero-bg.png);
@@ -100,7 +99,6 @@ img{
     align-items: center;
     padding: 30px;
 }
-
 .about-me1{
     display: flex;
     flex-direction: column;
@@ -115,7 +113,6 @@ img{
     gap: 12px;
     margin: 0 80px;
 }
-   
 .about-me1 p{
     font-size: 15px;
     color: rgb(96, 96, 100);
@@ -141,17 +138,13 @@ img{
 }
 .child{
     padding: 0 20px;
-    
 }
 .child-1{
-    padding: 20px;
-    
+    padding: 20px; 
 }
 .card{
     display: flex;
-    gap: 25px;
-
-    
+    gap: 25px;  
 }
 .card img{
     width: auto;
@@ -186,6 +179,13 @@ img{
 }
 .new-contant{
     background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+}
+.support{
+    padding: 40px;
 }
 .new-contant h1{
     color: white;
@@ -199,8 +199,19 @@ img{
     line-height: 25px;
     letter-spacing: 0.5px;
 }
-#foot{
-    
+.submit{
+    padding-left: 170px;
+}
+.submit form textarea{
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: none;
+}
+.submit form input{
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    s: ;
 }
 .new-child{
     display: flex;
