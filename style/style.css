@@ -202,7 +202,7 @@ img{
 .submit{
     padding-left: 170px;
 }
-.submit form textarea{
+/*.submit form textarea{
     border-radius: 5px;
     padding: 5px 15px;
     border: none;
@@ -211,6 +211,18 @@ img{
     padding: 8px 15px;
     border-radius: 5px;
     border: none;
+}*/
+.submit-child{
+    padding: 8px 80px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.submit-child1{
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
 }
 .new-child{
     display: flex;
